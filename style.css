@@ -1,10 +1,20 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: system-ui;
+  font-family: 100% system-ui;
 }
 label textarea {
   position: absolute;
   top: -9999px;
   left: -9999px;
+}
+label {
+  background: darkorchid;
+  color: white;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
 }
