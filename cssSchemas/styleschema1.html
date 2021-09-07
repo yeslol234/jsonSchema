@@ -1,5 +1,4 @@
-<html>
-  <body>
+<html><head></head><body>
     <style>
       /* PrismJS 1.24.1
 https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+json+json5 */
@@ -127,81 +126,81 @@ pre[class*="language-"] {
 }
 
     </style>
-  </body>
-  <head>
-    <code class="language-json">
-   {
-    "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "http://example.com/example.json",
-    "type": "object",
-    "title": "The root schema",
-    "description": "The root schema comprises the entire JSON document.",
-    "default": {},
-    "examples": [
-        {
-            "Key": 119303,
-            "Admin": true,
-            "Mod": false,
-            "Player": false
-        }
-    ],
-    "required": [
-        "Key",
-        "Admin",
-        "Mod",
-        "Player"
-    ],
-    "properties": {
-        "Key": {
-            "$id": "#/properties/Key",
-            "default": 0,
-            "description": "A User Key used to identify the Player",
-            "examples": [
-                119303,
-                192390,
-                000001
-            ],
-            "title": "The User Key",
-            "type": "integer"
-        },
-        "Admin": {
-            "$id": "#/properties/Admin",
-            "default": false,
-            "description": "A Rank Boolean.",
-            "examples": [
-                true,
-                false
-            ],
-            "title": "The boolean to check if the Player is a Admin",
-            "type": "boolean"
-        },
-        "Mod": {
-            "$id": "#/properties/Mod",
-            "default": false,
-            "description": "A Rank boolean.",
-            "examples": [
-                true,
-                false
-            ],
-            "title": "The boolean to check if the player is a Mod",
-            "type": "boolean"
-        },
-        "Player": {
-            "$id": "#/properties/Player",
-            "default": false,
-            "description": "A Rank boolean.",
-            "examples": [
-                true,
-                false
-            ],
-            "title": "The boolean to check if the player is a default Player",
-            "type": "boolean"
-        }
-    },
-    "additionalProperties": true
-}
-</code><br/><br/><br/>
+  
+  
+    <pre class=" language-json">   <span class="token punctuation">{</span>
+    <span class="token property">"$schema"</span><span class="token operator">:</span> <span class="token string">"http://json-schema.org/draft-07/schema"</span><span class="token punctuation">,</span>
+    <span class="token property">"$id"</span><span class="token operator">:</span> <span class="token string">"http://example.com/example.json"</span><span class="token punctuation">,</span>
+    <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"object"</span><span class="token punctuation">,</span>
+    <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"The root schema"</span><span class="token punctuation">,</span>
+    <span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"The root schema comprises the entire JSON document."</span><span class="token punctuation">,</span>
+    <span class="token property">"default"</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"examples"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"Key"</span><span class="token operator">:</span> <span class="token number">119303</span><span class="token punctuation">,</span>
+            <span class="token property">"Admin"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+            <span class="token property">"Mod"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            <span class="token property">"Player"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"required"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">"Key"</span><span class="token punctuation">,</span>
+        <span class="token string">"Admin"</span><span class="token punctuation">,</span>
+        <span class="token string">"Mod"</span><span class="token punctuation">,</span>
+        <span class="token string">"Player"</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"properties"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"Key"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"$id"</span><span class="token operator">:</span> <span class="token string">"#/properties/Key"</span><span class="token punctuation">,</span>
+            <span class="token property">"default"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+            <span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"A User Key used to identify the Player"</span><span class="token punctuation">,</span>
+            <span class="token property">"examples"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token number">119303</span><span class="token punctuation">,</span>
+                <span class="token number">192390</span><span class="token punctuation">,</span>
+                <span class="token number">000001</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"The User Key"</span><span class="token punctuation">,</span>
+            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"integer"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"Admin"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"$id"</span><span class="token operator">:</span> <span class="token string">"#/properties/Admin"</span><span class="token punctuation">,</span>
+            <span class="token property">"default"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            <span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"A Rank Boolean."</span><span class="token punctuation">,</span>
+            <span class="token property">"examples"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token boolean">true</span><span class="token punctuation">,</span>
+                <span class="token boolean">false</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"The boolean to check if the Player is a Admin"</span><span class="token punctuation">,</span>
+            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"boolean"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"Mod"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"$id"</span><span class="token operator">:</span> <span class="token string">"#/properties/Mod"</span><span class="token punctuation">,</span>
+            <span class="token property">"default"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            <span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"A Rank boolean."</span><span class="token punctuation">,</span>
+            <span class="token property">"examples"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token boolean">true</span><span class="token punctuation">,</span>
+                <span class="token boolean">false</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"The boolean to check if the player is a Mod"</span><span class="token punctuation">,</span>
+            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"boolean"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"Player"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"$id"</span><span class="token operator">:</span> <span class="token string">"#/properties/Player"</span><span class="token punctuation">,</span>
+            <span class="token property">"default"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            <span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"A Rank boolean."</span><span class="token punctuation">,</span>
+            <span class="token property">"examples"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token boolean">true</span><span class="token punctuation">,</span>
+                <span class="token boolean">false</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"The boolean to check if the player is a default Player"</span><span class="token punctuation">,</span>
+            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"boolean"</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"additionalProperties"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+</pre>
 	  ( sorry no fancy formatting )
     <script src="https://yeslol234.github.io/jsonSchema/prismHighlighter/prism.js"> </script>
-  </head>
-</html>
+  
+
+</body></html>
